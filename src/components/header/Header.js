@@ -6,7 +6,7 @@ import { useStateProviderValue } from '../../contextAPI/stateProvider';
 
 const Header = () => {
 
-    const [{user}, dispatch] = useStateProviderValue();
+    const [{user}] = useStateProviderValue();
 
     return (
         <div className="header">

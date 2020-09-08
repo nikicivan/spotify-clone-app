@@ -10,7 +10,7 @@ import { useStateProviderValue } from './contextAPI/stateProvider';
 const spotify = new SpotifyWebApi();
 
 function App() {  
-  const [{ user, token }, dispatch] = useStateProviderValue();
+  const [{ token }, dispatch] = useStateProviderValue();
 
   //run code based on given condition
   useEffect(() => {
